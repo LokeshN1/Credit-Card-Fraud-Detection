@@ -63,7 +63,7 @@ st.markdown(
 )
 
 # Title of the app
-st.markdown("<h1 class='title'>Credit Card Fraud Detection</h1>", unsafe_allow_html=True)
+st.markdown("<h1 class='title'>Credit Card Fraud Detector</h1>", unsafe_allow_html=True)
 
 # Load the saved model and scaler
 model = joblib.load("credit_card_model.pkl")
